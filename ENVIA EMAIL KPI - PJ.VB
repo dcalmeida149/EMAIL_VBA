@@ -9,7 +9,7 @@ Sub gerapdf()
         
         Caminho_Arquivo = ThisWorkbook.Path & "\Emails_enviados\Controle_semanal_" & plan & "-" & mydate & ".pdf"
         
-        ActiveSheet.Range("a1:k80").ExportAsFixedFormat Type:=xlTypePDF, Filename:=Caminho_Arquivo 'Exporta para pdf no caminho indicado. Lembrar de configurar Area de impressão
+        ActiveSheet.Range("a1:k81").ExportAsFixedFormat Type:=xlTypePDF, Filename:=Caminho_Arquivo 'Exporta para pdf no caminho indicado. Lembrar de configurar Area de impressão
         
     End With
 End Sub
